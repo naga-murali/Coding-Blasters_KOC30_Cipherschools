@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Login And Regitration Form</title>
+        <link rel="stylesheet" href="projectlogin.css">
+        <link rel="stylesheet" href="projectcss.css">
+    </head>
+    <body>
+        <div class="logpage">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="Login()">Log in</button>
+                    <button type="button" class="toggle-btn" onclick="Register()">Register</button>
+                </div>
+                <div class="social-icon">
+                    <img src="facebook.jpg">
+                    <img src="twitter.jpg">
+                    <img src="google.jpg">
+                </div>
+                <form id="Login" class="input-group">
+                    <input type="text" class="input-field" placeholder="Username" required autofocus>
+                    <input type="text" class="input-field" placeholder="Password" required autofocus>
+                    <input type="checkbox" class="check-box"><span>Save Password</span>
+                    <button type="submit" class="submit-btn">Log in</button>
+                </form>
+                <form id="Register" class="input-group">
+                    <input type="email" class="input-field" placeholder="Email" required autofocus>
+                    <input type="text" class="input-field" placeholder="Password" required autofocus>
+                    <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>
+            </div> 
+        </div>
+    </body>
+</html>
